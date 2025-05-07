@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>VadyaSlot - Тор из Асгарда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VadyaSlot</h1>
+
+    <div id="game-area">
+        <div id="grid"></div>
+
+        <div id="info">
+            <label>Ставка: <input type="number" id="bet" value="100"></label><br>
+            <p>Баланс: <span id="balance">10000</span></p>
+            <p>Выигрыш: <span id="win">0</span></p>
+        </div>
+
+        <button onclick="spin()">SPIN</button>
+        <button onclick="buySpins()">Купить фриспины (x100)</button>
+        <button onclick="recharge()">Пополнить баланс</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
